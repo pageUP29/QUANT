@@ -3,8 +3,6 @@
 #加载包,打开控件
 library(WindR)
 w.start()
-w_wsd_data<-w.wsd("600000.SH","close,MACD","2015-03-04","2015-04-03","MACD_L=26;MACD_S=12;MACD_N=9;MACD_IO=1;Fill=Previous")$Data
-str(w_wsd_data)
 #用户输入部分 
 begindate<-'20150301'#输入交易开始时间
 enddate<-'20150331' #输入交易终止时间
